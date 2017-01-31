@@ -46,6 +46,13 @@ persist.dpm.nsrm.bkg.evt=3955
 ro.sys.fw.dex2oat_thread_count=6
 
 
+# Data modules
+ro.use_data_netmgrd=true
+persist.data.netmgrd.qos.enable=true
+persist.data.mode=concurrent
+persist.data.iwlan.enable=true
+
+
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/config
 
@@ -104,11 +111,6 @@ media.stagefright.enable-qcp=true
 media.stagefright.enable-fma2dp=true
 media.stagefright.enable-scan=true
 
-
-# Netmgrd
-persist.data.mode=concurrent
-persist.data.netmgrd.qos.enable=true
-ro.use_data_netmgrd=true
 
 # NITZ
 persist.rild.nitz_plmn=
