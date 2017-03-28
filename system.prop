@@ -54,7 +54,8 @@ persist.gps.qc_nlp_in_use=1
 persist.loc.nlp_name=com.qualcomm.location
 ro.gps.agps_provider=1
 
-# Taken from Google Pixel to reduce GPU overhead
+# HWUI Tweaks
+
 ro.hwui.texture_cache_size=56
 ro.hwui.layer_cache_size=32
 ro.hwui.r_buffer_cache_size=8
@@ -66,6 +67,7 @@ ro.hwui.text_small_cache_width=1024
 ro.hwui.text_small_cache_height=1024
 ro.hwui.text_large_cache_width=2048
 ro.hwui.text_large_cache_height=1024
+
 
 
 # Graphics
